@@ -1,4 +1,5 @@
-import { ItemType, SectionContainerProps } from "@/components/SectionContainer";
+import { ItemType, SectionContainerProps } from "@/@types"
+
 
 const itemsPreparandoAmbiente: ItemType[] = [
     {
@@ -38,5 +39,6 @@ const itemsPreparandoAmbiente: ItemType[] = [
 
 export const Section1: SectionContainerProps = {
     title: 'Preparando ambiente para teste e atendimento',
-    items: itemsPreparandoAmbiente
+    items: itemsPreparandoAmbiente,
+    subTitle: 'preparação'
 }

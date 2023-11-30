@@ -1,4 +1,4 @@
-import { ItemType, SectionContainerProps } from "@/components/SectionContainer";
+import { ItemType, SectionContainerProps } from "@/@types";
 
 const items: ItemType[] = [
     {
@@ -29,5 +29,6 @@ const items: ItemType[] = [
 
 export const Section4: SectionContainerProps = {
     title: 'Telas do Lírio - Financeiro',
-    items: items
+    items: items,
+    subTitle: 'financeiro'
 }

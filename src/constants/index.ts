@@ -1,4 +1,5 @@
-import { SectionContainerProps } from "@/components/SectionContainer";
+
+import { SectionContainerProps } from "@/@types";
 import { Section1 } from "./ItemsTest";
 import { Section2 } from "./ItemsTest2";
 import { Section3 } from "./ItemsTest3";
